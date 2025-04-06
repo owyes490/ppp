@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>أهلاً بك في موقعنا 🎉</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      direction: rtl;
+    }
+    h1 {
+      color: #4A148C;
+      animation: fadeIn 2s ease-in-out;
+    }
+    img {
+      width: 200px;
+      animation: bounce 3s infinite;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 16px;
+      margin: 20px;
+      border: none;
+      background-color: #6A1B9A;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #8E24AA;
+    }
+    @keyframes bounce {
+      0%, 100% {transform: translateY(0);}
+      50% {transform: translateY(-20px);}
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 أهلاً وسهلاً بكم في موقعنا الرهيب! 🎉</h1>
+  <img src="https://via.placeholder.com/200" alt="صورة متحركة">
+  <img src="https://via.placeholder.com/200/ff0000" alt="صورة ملونة">
+  
+  <p>👋 نحن سعداء بزيارتكم!</p>
+
+  <button onclick="location.href='login.html'">اضغط لتسجيل الدخول</button>
+  <button onclick="location.href='register.html'">اضغط لإنشاء حساب</button>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+  <style>
+    body {
+      background-color: #fce4ec;
+      font-family: Tahoma, sans-serif;
+      direction: rtl;
+      text-align: center;
+      padding: 50px;
+    }
+    input {
+      margin: 10px;
+      padding: 10px;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #ec407a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    a {
+      display: block;
+      margin-top: 15px;
+      color: #d81b60;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>تسجيل الدخول</h2>
+  <input type="text" placeholder="اسم المستخدم"><br>
+  <input type="email" placeholder="البريد الإلكتروني"><br>
+  <input type="password" placeholder="كلمة المرور"><br>
+  <a href="reset-password.html">هل نسيت كلمة المرور؟</a><br>
+  <button>تسجيل</button>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>استعادة كلمة المرور</title>
+  <style>
+    body {
+      background-color: #fff3e0;
+      direction: rtl;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    input {
+      margin: 10px;
+      padding: 10px;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #fb8c00;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>هل نسيت كلمة السر؟</h2>
+  <input type="email" placeholder="أدخل بريدك الإلكتروني"><br>
+  <button>إرسال كود</button><br><br>
+  <input type="text" placeholder="أدخل الكود المستلم"><br>
+  <button>تأكيد</button>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>إنشاء حساب</title>
+  <style>
+    body {
+      background-color: #e8f5e9;
+      direction: rtl;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    input {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #43a047;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>إنشاء حساب جديد</h2>
+  <input type="text" placeholder="اسم المستخدم">
+  <input type="date" placeholder="تاريخ الميلاد">
+  <input type="email" placeholder="البريد الإلكتروني">
+  <input type="password" placeholder="كلمة السر">
+  <input type="password" placeholder="تأكيد كلمة السر">
+  <input type="text" placeholder="الموقع">
+  <button onclick="location.href='welcome.html'">تأكيد</button>
+  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مرحبا بك</title>
+  <style>
+    body {
+      background-color: #fffde7;
+      direction: rtl;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 100px;
+    }
+    h1 {
+      color: #f57f17;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>شكراً لكم لزيارة موقعنا 💖</h1>
+  <p>الاسم: owyes</p>
+  <p>رقم الهاتف للتواصل: 01010683999</p>
+
+</body>
+</html>
+
